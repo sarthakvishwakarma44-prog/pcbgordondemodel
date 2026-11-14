@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot Arm Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Robot Arm Control Panel</h1>
+
+    <div class="main">
+
+        <div class="camera">
+            <h2>Live Camera</h2>
+
+            <div class="video">
+                Camera Feed
+            </div>
+
+            <p>Camera view will be shown here.</p>
+        </div>
+
+        <div class="controls">
+            <h2>Keyboard Controls</h2>
+
+            <p>Motor 1 : <span class="key">W</span> <span class="key">S</span></p>
+            <p>Motor 2 : <span class="key">A</span> <span class="key">D</span></p>
+            <p>Motor 3 : <span class="key">↑</span> <span class="key">↓</span></p>
+            <p>Motor 4 : <span class="key">→</span> <span class="key">←</span></p>
+            <p>Motor 5 : <span class="key">,</span> <span class="key">/</span></p>
+
+            <p>Hold a key to move the servo.</p>
+            <p>Release the key to stop it.</p>
+
+            <button onclick="stopAll()">Stop All</button>
+        </div>
+
+    </div>
+
+    <div class="activity">
+        <h2>Activity Log</h2>
+        <p id="log">Waiting for input...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

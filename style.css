@@ -1,0 +1,86 @@
+body {
+    background-color: #fff1e6;
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #713b55;
+    background-color: #ffc8dd;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: cursive;
+    color: #713b55;
+}
+
+.main {
+    display: flex;
+    gap: 15px;
+}
+
+.camera {
+    background-color: #d8f3dc;
+    padding: 15px;
+    width: 50%;
+    border: 2px solid #95d5b2;
+    border-radius: 10px;
+}
+
+.controls {
+    background-color: #e7c6ff;
+    padding: 15px;
+    width: 50%;
+    border: 2px solid #c8a2e8;
+    border-radius: 10px;
+}
+
+.video {
+    background-color: #444;
+    height: 280px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.key {
+    background-color: #fff0a5;
+    border: 1px solid #e6b84b;
+    padding: 8px 14px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+p {
+    color: #49313c;
+}
+
+button {
+    background-color: #ff8fab;
+    color: white;
+    border: none;
+    padding: 11px 22px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e76f91;
+}
+
+.activity {
+    background-color: #fff0a5;
+    border: 2px solid #e6c65c;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
